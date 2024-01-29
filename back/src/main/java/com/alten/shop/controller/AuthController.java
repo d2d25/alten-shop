@@ -21,14 +21,13 @@ import com.alten.shop.dto.LoginDTO;
 import com.alten.shop.dto.SignupDTO;
 import com.alten.shop.dto.UserDTO;
 import com.alten.shop.service.IUserService;
-import com.alten.shop.service.UserDetailsServiceImpl;
 import com.alten.shop.service.exception.UserAlreadyExistsException;
 
 import jakarta.validation.ConstraintViolation;
 import jakarta.validation.Validator;
 
 @RestController
-@RequestMapping("/auth")
+@RequestMapping("/api/auth")
 public class AuthController {
 	
 	private static final Logger logger = LoggerFactory.getLogger(AuthController.class);

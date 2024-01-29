@@ -22,7 +22,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * @Autor Dénez Fauchon
  */
 @RestController
-@RequestMapping("/produtcs")
+@RequestMapping("/api/produtcs")
 public class ProductController {
     
     private final IProductService productService;
